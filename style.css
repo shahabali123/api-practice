@@ -1,4 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 img{
     height: 20rem;
     width: 20rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-size: cover;
+    margin: 1rem;
+}
+button{
+    margin: 2rem;
+    height: 3rem;
+    width: 40vw;
+    border-radius: 20px;
+    background-color: violet;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
